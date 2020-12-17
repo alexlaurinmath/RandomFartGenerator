@@ -21,7 +21,7 @@ let package = Package(
         .target(
           name: "RandomFartGenerator",
           resources: [
-              .process("Resources/0.mp3")]
+              .process("Resources")]
         ),
         .testTarget(
             name: "RandomFartGeneratorTests",
