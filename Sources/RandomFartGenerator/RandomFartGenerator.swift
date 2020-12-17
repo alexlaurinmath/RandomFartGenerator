@@ -7,7 +7,7 @@ public struct RandomFartGenerator {
   
   public static func emit() {
     let number = Int.random(in: 0..<120)
-    guard let fartUrl = Bundle.module.url(forResource: "\(0).mp3", withExtension: nil) else {
+    guard let fartUrl = Bundle.module.url(forResource: "\(0)", withExtension: nil) else {
       return
     }
     do {
